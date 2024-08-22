@@ -30,7 +30,7 @@ This will create a new ticket:
 client.command({
     name: "newTicket",
     code: `
-    $newTicket[ticket-$username;Hello <@$authorID!;$channelCategoryID;false;Error!]
+    $newTicket[ticket-$username;Hello <@$authorID>!;$channelCategoryID;false;Error!]
     `
 });
 ```
